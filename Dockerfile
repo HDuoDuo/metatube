@@ -3,7 +3,8 @@ FROM golang:alpine AS builder
 WORKDIR /src
 COPY . /src
 
-RUN apk add --update --no-cache --no-progress make git && make server
+RUN apk add --update --no-cache --no-progress make git \ 
+    && make server
 
 FROM alpine:latest
 LABEL org.opencontainers.image.licenses=Apache-2.0
