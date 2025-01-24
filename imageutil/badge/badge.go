@@ -42,5 +42,5 @@ func Badge(src image.Image, badge string) (image.Image, error) {
 		badgeCache.Set(badge, img, ttlcache.DefaultTTL)
 	}
 	wmk := imageutil.Resize(img, 0, src.Bounds().Dy()/5 /* 0.2 */)
-	return imageutil.Watermark(src, wmk, image.Point{}), nil
+	return imageutil.Watermark(src, wmk, image.Point{float64(src.Bounds().Dx()) - float64(wmk.Bounds().Dx()), float64(src.Bounds().Dy()) * 0.8}), nil
 }
