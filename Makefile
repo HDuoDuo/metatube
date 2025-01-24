@@ -1,4 +1,4 @@
-MODULE := github.com/metatube-community/metatube-sdk-go
+MODULE := github.com/HDuoDuo/metatube
 
 SERVER_NAME := metatube-server
 SERVER_CODE := cmd/server/main.go
