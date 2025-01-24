@@ -43,6 +43,6 @@ func Badge(src image.Image, badge string) (image.Image, error) {
 	}
 	wmk := imageutil.Resize(img, 0, src.Bounds().Dy()/5 /* 0.2 */)
 	wmkX := src.Bounds().Dx() - wmk.Bounds().Dx()
-	wmkY := wmk.Bounds().Dy() * 4
+	wmkY := src.Bounds().Dy() - wmk.Bounds().Dy()
 	return imageutil.Watermark(src, wmk, image.Point{X: wmkX, Y: wmkY}), nil
 }
