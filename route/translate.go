@@ -6,12 +6,12 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/schema"
 
-	"github.com/metatube-community/metatube-sdk-go/translate"
-	_ "github.com/metatube-community/metatube-sdk-go/translate/baidu"
-	_ "github.com/metatube-community/metatube-sdk-go/translate/deepl"
-	_ "github.com/metatube-community/metatube-sdk-go/translate/google"
-	_ "github.com/metatube-community/metatube-sdk-go/translate/googlefree"
-	_ "github.com/metatube-community/metatube-sdk-go/translate/openai"
+	"github.com/HDuoDuo/metatube/translate"
+	_ "github.com/HDuoDuo/metatube/translate/baidu"
+	_ "github.com/HDuoDuo/metatube/translate/deepl"
+	_ "github.com/HDuoDuo/metatube/translate/google"
+	_ "github.com/HDuoDuo/metatube/translate/googlefree"
+	_ "github.com/HDuoDuo/metatube/translate/openai"
 )
 
 type translateQuery struct {

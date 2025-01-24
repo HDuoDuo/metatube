@@ -9,10 +9,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/peterbourgon/ff/v3"
 
-	"github.com/metatube-community/metatube-sdk-go/database"
-	"github.com/metatube-community/metatube-sdk-go/engine"
-	"github.com/metatube-community/metatube-sdk-go/route"
-	"github.com/metatube-community/metatube-sdk-go/route/auth"
+	"github.com/HDuoDuo/metatube/database"
+	"github.com/HDuoDuo/metatube/engine"
+	"github.com/HDuoDuo/metatube/route"
+	"github.com/HDuoDuo/metatube/route/auth"
 )
 
 var Config = &struct {

@@ -3,7 +3,7 @@ package c0930
 import (
 	"testing"
 
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/testkit"
+	"github.com/HDuoDuo/metatube/provider/internal/testkit"
 )
 
 func TestC0930_GetMovieInfoByID(t *testing.T) {

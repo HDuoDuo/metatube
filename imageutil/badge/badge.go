@@ -7,8 +7,8 @@ import (
 
 	"github.com/jellydator/ttlcache/v3"
 
-	"github.com/metatube-community/metatube-sdk-go/common/fetch"
-	"github.com/metatube-community/metatube-sdk-go/imageutil"
+	"github.com/HDuoDuo/metatube/common/fetch"
+	"github.com/HDuoDuo/metatube/imageutil"
 )
 
 var (

@@ -9,9 +9,9 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/metatube-community/metatube-sdk-go/common/fetch"
-	"github.com/metatube-community/metatube-sdk-go/database"
-	mt "github.com/metatube-community/metatube-sdk-go/provider"
+	"github.com/HDuoDuo/metatube/common/fetch"
+	"github.com/HDuoDuo/metatube/database"
+	mt "github.com/HDuoDuo/metatube/provider"
 )
 
 const (

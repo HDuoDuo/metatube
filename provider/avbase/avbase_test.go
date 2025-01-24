@@ -3,7 +3,7 @@ package avbase
 import (
 	"testing"
 
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/testkit"
+	"github.com/HDuoDuo/metatube/provider/internal/testkit"
 )
 
 func TestAVBase_GetMovieInfoByID(t *testing.T) {

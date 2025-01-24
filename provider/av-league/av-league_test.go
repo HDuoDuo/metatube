@@ -3,7 +3,7 @@ package avleague
 import (
 	"testing"
 
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/testkit"
+	"github.com/HDuoDuo/metatube/provider/internal/testkit"
 )
 
 func TestAVLeague_GetActorInfoByID(t *testing.T) {

@@ -8,12 +8,12 @@ import (
 	"slices"
 	"time"
 
-	"github.com/metatube-community/metatube-sdk-go/collections"
-	"github.com/metatube-community/metatube-sdk-go/common/fetch"
-	"github.com/metatube-community/metatube-sdk-go/common/singledo"
-	"github.com/metatube-community/metatube-sdk-go/model"
-	"github.com/metatube-community/metatube-sdk-go/provider"
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/scraper"
+	"github.com/HDuoDuo/metatube/collections"
+	"github.com/HDuoDuo/metatube/common/fetch"
+	"github.com/HDuoDuo/metatube/common/singledo"
+	"github.com/HDuoDuo/metatube/model"
+	"github.com/HDuoDuo/metatube/provider"
+	"github.com/HDuoDuo/metatube/provider/internal/scraper"
 )
 
 var (

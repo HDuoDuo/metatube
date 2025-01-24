@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/metatube-community/metatube-sdk-go/common/fetch"
-	mt "github.com/metatube-community/metatube-sdk-go/provider"
+	"github.com/HDuoDuo/metatube/common/fetch"
+	mt "github.com/HDuoDuo/metatube/provider"
 )
 
 // Special environment prefixes for setting provider priorities.

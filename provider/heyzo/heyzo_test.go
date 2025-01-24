@@ -3,7 +3,7 @@ package heyzo
 import (
 	"testing"
 
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/testkit"
+	"github.com/HDuoDuo/metatube/provider/internal/testkit"
 )
 
 func TestHeyzo_GetMovieInfoByID(t *testing.T) {

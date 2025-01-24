@@ -3,7 +3,7 @@ package h4610
 import (
 	"testing"
 
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/testkit"
+	"github.com/HDuoDuo/metatube/provider/internal/testkit"
 )
 
 func TestH4610_GetMovieInfoByID(t *testing.T) {

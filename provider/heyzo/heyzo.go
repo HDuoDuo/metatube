@@ -12,12 +12,12 @@ import (
 
 	"github.com/gocolly/colly/v2"
 
-	"github.com/metatube-community/metatube-sdk-go/common/js"
-	"github.com/metatube-community/metatube-sdk-go/common/m3u8"
-	"github.com/metatube-community/metatube-sdk-go/common/parser"
-	"github.com/metatube-community/metatube-sdk-go/model"
-	"github.com/metatube-community/metatube-sdk-go/provider"
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/scraper"
+	"github.com/HDuoDuo/metatube/common/js"
+	"github.com/HDuoDuo/metatube/common/m3u8"
+	"github.com/HDuoDuo/metatube/common/parser"
+	"github.com/HDuoDuo/metatube/model"
+	"github.com/HDuoDuo/metatube/provider"
+	"github.com/HDuoDuo/metatube/provider/internal/scraper"
 )
 
 var (

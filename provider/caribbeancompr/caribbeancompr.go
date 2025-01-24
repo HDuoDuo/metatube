@@ -3,8 +3,8 @@ package caribbeancompr
 import (
 	"regexp"
 
-	"github.com/metatube-community/metatube-sdk-go/provider"
-	"github.com/metatube-community/metatube-sdk-go/provider/caribbeancom/core"
+	"github.com/HDuoDuo/metatube/provider"
+	"github.com/HDuoDuo/metatube/provider/caribbeancom/core"
 )
 
 var (

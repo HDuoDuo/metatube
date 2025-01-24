@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/metatube-community/metatube-sdk-go/model"
+	"github.com/HDuoDuo/metatube/model"
 )
 
 type Provider interface {

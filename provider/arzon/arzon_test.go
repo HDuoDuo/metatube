@@ -3,7 +3,7 @@ package arzon
 import (
 	"testing"
 
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/testkit"
+	"github.com/HDuoDuo/metatube/provider/internal/testkit"
 )
 
 func TestARZON_GetMovieInfoByID(t *testing.T) {

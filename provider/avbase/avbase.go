@@ -12,18 +12,18 @@ import (
 
 	"github.com/gocolly/colly/v2"
 
-	"github.com/metatube-community/metatube-sdk-go/common/fetch"
-	"github.com/metatube-community/metatube-sdk-go/common/number"
-	"github.com/metatube-community/metatube-sdk-go/common/parser"
-	"github.com/metatube-community/metatube-sdk-go/common/singledo"
-	"github.com/metatube-community/metatube-sdk-go/model"
-	"github.com/metatube-community/metatube-sdk-go/provider"
-	"github.com/metatube-community/metatube-sdk-go/provider/duga"
-	"github.com/metatube-community/metatube-sdk-go/provider/fanza"
-	"github.com/metatube-community/metatube-sdk-go/provider/getchu"
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/scraper"
-	"github.com/metatube-community/metatube-sdk-go/provider/mgstage"
-	"github.com/metatube-community/metatube-sdk-go/provider/pcolle"
+	"github.com/HDuoDuo/metatube/common/fetch"
+	"github.com/HDuoDuo/metatube/common/number"
+	"github.com/HDuoDuo/metatube/common/parser"
+	"github.com/HDuoDuo/metatube/common/singledo"
+	"github.com/HDuoDuo/metatube/model"
+	"github.com/HDuoDuo/metatube/provider"
+	"github.com/HDuoDuo/metatube/provider/duga"
+	"github.com/HDuoDuo/metatube/provider/fanza"
+	"github.com/HDuoDuo/metatube/provider/getchu"
+	"github.com/HDuoDuo/metatube/provider/internal/scraper"
+	"github.com/HDuoDuo/metatube/provider/mgstage"
+	"github.com/HDuoDuo/metatube/provider/pcolle"
 )
 
 var (

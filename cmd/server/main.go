@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/metatube-community/metatube-sdk-go/cmd"
-	"github.com/metatube-community/metatube-sdk-go/engine"
-	V "github.com/metatube-community/metatube-sdk-go/internal/version"
+	"github.com/HDuoDuo/metatube/cmd"
+	"github.com/HDuoDuo/metatube/engine"
+	V "github.com/HDuoDuo/metatube/internal/version"
 )
 
 func showVersionAndExit() {

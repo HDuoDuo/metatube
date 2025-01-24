@@ -1,8 +1,8 @@
 package faleno
 
 import (
-	"github.com/metatube-community/metatube-sdk-go/provider"
-	"github.com/metatube-community/metatube-sdk-go/provider/dahlia/core"
+	"github.com/HDuoDuo/metatube/provider"
+	"github.com/HDuoDuo/metatube/provider/dahlia/core"
 )
 
 var (

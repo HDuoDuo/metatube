@@ -7,7 +7,7 @@ import (
 	"github.com/gocolly/colly/v2"
 	"github.com/gocolly/colly/v2/debug"
 
-	"github.com/metatube-community/metatube-sdk-go/common/random"
+	"github.com/HDuoDuo/metatube/common/random"
 )
 
 type Option func(*Scraper) error

@@ -6,7 +6,7 @@ import (
 
 	"github.com/jellydator/ttlcache/v3"
 
-	"github.com/metatube-community/metatube-sdk-go/imageutil"
+	"github.com/HDuoDuo/metatube/imageutil"
 )
 
 //go:embed zimu.png

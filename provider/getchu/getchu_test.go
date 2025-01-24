@@ -3,7 +3,7 @@ package getchu
 import (
 	"testing"
 
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/testkit"
+	"github.com/HDuoDuo/metatube/provider/internal/testkit"
 )
 
 func TestGetchu_GetMovieInfoByID(t *testing.T) {

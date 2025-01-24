@@ -5,9 +5,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/metatube-community/metatube-sdk-go/engine"
-	"github.com/metatube-community/metatube-sdk-go/errors"
-	"github.com/metatube-community/metatube-sdk-go/model"
+	"github.com/HDuoDuo/metatube/engine"
+	"github.com/HDuoDuo/metatube/errors"
+	"github.com/HDuoDuo/metatube/model"
 )
 
 type reviewQuery struct {

@@ -9,11 +9,11 @@ import (
 
 	"gorm.io/gorm/clause"
 
-	"github.com/metatube-community/metatube-sdk-go/collections"
-	"github.com/metatube-community/metatube-sdk-go/common/comparer"
-	"github.com/metatube-community/metatube-sdk-go/common/number"
-	"github.com/metatube-community/metatube-sdk-go/model"
-	mt "github.com/metatube-community/metatube-sdk-go/provider"
+	"github.com/HDuoDuo/metatube/collections"
+	"github.com/HDuoDuo/metatube/common/comparer"
+	"github.com/HDuoDuo/metatube/common/number"
+	"github.com/HDuoDuo/metatube/model"
+	mt "github.com/HDuoDuo/metatube/provider"
 )
 
 func (e *Engine) searchMovieFromDB(keyword string, provider mt.MovieProvider, all bool) (results []*model.MovieSearchResult, err error) {
