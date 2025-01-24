@@ -48,5 +48,5 @@ jobs:
             linux/amd64
           push: true
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/iev:latest
-            ${{ secrets.DOCKER_USERNAME }}/iev:${{ env.app_version }}
+            ${{ secrets.DOCKER_USERNAME }}/metatube:latest
+            ${{ secrets.DOCKER_USERNAME }}/metatube:${{ env.app_version }}
