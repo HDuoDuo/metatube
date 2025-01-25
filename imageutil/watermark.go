@@ -9,6 +9,6 @@ func Watermark(src image.Image, wmk image.Image, pt image.Point) image.Image {
 	dst := image.NewNRGBA(image.Rect(0, 0,
 		src.Bounds().Dx(), src.Bounds().Dy()))
 	draw.Draw(dst, dst.Bounds(), src, src.Bounds().Min, draw.Src)
-	draw.Draw(dst, wmk.Bounds().Add(dst.Bounds().Max.Sub(wmk.Bounds.Max)), wmk, wmk.Bounds().Min.Add(pt), draw.Over)
+	draw.Draw(dst, wmk.Bounds().Add(dst.Bounds().Max.Sub(wmk.Bounds().Max)), wmk, wmk.Bounds().Min.Add(pt), draw.Over)
 	return dst
 }
