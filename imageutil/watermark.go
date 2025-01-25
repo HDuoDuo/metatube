@@ -3,7 +3,7 @@ package imageutil
 import (
 	"image"
 	"image/draw"
-	dr "golang.org/x/image/draw"
+	// dr "golang.org/x/image/draw"
 	"github.com/HDuoDuo/metatube/imageutil"
 )
 
