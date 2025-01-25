@@ -14,7 +14,7 @@ func Watermark(src image.Image, wmk image.Image, pt image.Point) image.Image {
 	width := int(float64(height) / float64(wmk.Bounds().Dy()) * float64(wmk.Bounds().Dx()))
 	rect := image.Rect(0, 0, width, height)
 	dsi := image.NewRGBA(rect)
-	sc := dr.BiLinear /* default interpolator */
+	sc := dr.BiLinear
 	// sc.Scale(dst, rect.Add(dst.Bounds().Max.Sub(Point{width, height})), wmk, wmk.Bounds(), scdraw.Over, nil)
 	sc.Scale(dsi, rect, wmk, wmk.Bounds(), dr.Over, nil)
 
