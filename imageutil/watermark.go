@@ -4,7 +4,6 @@ import (
 	"image"
 	"image/draw"
 	dr "golang.org/x/image/draw"
-	"github.com/HDuoDuo/metatube/imageutil"
 )
 
 func Watermark(src image.Image, wmk image.Image, pt image.Point) image.Image {
