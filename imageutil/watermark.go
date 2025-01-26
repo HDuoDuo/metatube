@@ -10,8 +10,8 @@ func Watermark(src image.Image, wmk image.Image, pt image.Point) image.Image {
 	dst := image.NewNRGBA(image.Rect(0, 0, src.Bounds().Dx(), src.Bounds().Dy()))
 	draw.Draw(dst, dst.Bounds(), src, src.Bounds().Min, draw.Src)
 
-	// height := int(float64(src.Bounds().Dy()/2))
-	// width := int(float64(height) / float64(src.Bounds().Dy()) * float64(src.Bounds().Dx()))
+	// height := int(float64(src.Bounds().Dy()/9))
+	// width := int(float64(height) / float64(wmk.Bounds().Dy()) * float64(wmk.Bounds().Dx()))
 	// rect := image.Rect(src.Bounds().Dx() - width, src.Bounds().Dy() - height, width, height)
 	// dr.BiLinear.Scale(dst, rect, wmk, wmk.Bounds(), dr.Over, nil)
 	// dr.BiLinear.Scale(dst, rect.Add(src.Bounds().Max.Sub(rect.Size())), wmk, wmk.Bounds(), dr.Over, nil)
