@@ -17,6 +17,7 @@ func Watermark(src image.Image, wmk image.Image, pt image.Point) image.Image {
 	// dr.BiLinear.Scale(dst, rect.Add(src.Bounds().Max.Sub(rect.Size())), wmk, wmk.Bounds(), dr.Over, nil)
 	// dr.BiLinear.Scale(dst, rect, wmk, wmk.Bounds(), dr.Over, nil)
 	mark := Resize(wmk, 0, src.Bounds().Dy()/9)
+	pt = Point{12, 12}
 
 	// temp := imageutil.Resize(wmk, 0, wmk.Bounds().Dy()/2)
 	// draw.Draw(dst, temp.Bounds().Add(dst.Bounds().Max.Sub(temp.Bounds().Max)), temp, temp.Bounds().Min.Add(pt), draw.Over)
